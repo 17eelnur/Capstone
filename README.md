@@ -1,0 +1,3 @@
+# Capstone
+Capstone Project
+The project involved the creation of a fully custom Security Operations Center (SOC) dashboard, built from the ground up and tightly integrated with Wazuh. Unlike generic log collectors, the dashboard is engineered to ingest only those logs that are triggered by custom-defined rules within Wazuh. This selective log intake ensures focus on high-fidelity alerts and critical incidents. An embedded AI module analyzes each triggered event in real time, generating comprehensive incident summaries along with intelligent mitigation recommendations. The system utilizes data from Sysmon, Suricata, and endpoint Event Viewer logs, effectively functioning as a lightweight SIEM tailored for rapid threat detection and decision support.
